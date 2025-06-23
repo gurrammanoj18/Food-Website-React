@@ -38,6 +38,7 @@
 .button2 {
   background-color: #f59e0b;
   color: white;
+  border-radius: none;
 }
 
 .button2:hover {
