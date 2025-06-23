@@ -1,0 +1,32 @@
+.more-info {
+  background-color: #fffbe7;
+  padding: 60px 0;
+}
+
+.food-heading {
+  font-size: 2rem;
+  color: #1e293b;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.food-text {
+  font-size: 1.1rem;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.food-button {
+  padding: 10px 20px;
+  background-color: #fbbf24;
+  border: none;
+  color: #1e293b;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.food-button:hover {
+  background-color: #f59e0b;
+  transform: scale(1.05);
+}

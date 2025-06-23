@@ -1,0 +1,39 @@
+.follow-us-section {
+  background-color: #dce37e;
+}
+
+.follow-heading {
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.icon-container {
+  gap: 30px;
+}
+
+.follow-icon {
+  font-size: 20px;
+  color: #475569;
+  margin: 0 15px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.follow-icon:hover {
+  color: #f59e0b;
+  transform: scale(1.2);
+}
+@media (max-width: 576px) {
+  .follow-heading {
+    font-size: 26px;
+  }
+
+  .follow-icon {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .icon-wrapper {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,35 @@
+.menu-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.hover-card {
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35); /* Darker, deeper shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 45px rgba(0, 0, 0, 0.5); /* Even darker on hover */
+}
+
