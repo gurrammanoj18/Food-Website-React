@@ -74,7 +74,7 @@ const ExploreMenu = () => {
               <img src={item.image} className="card-img-top" alt={item.title} />
               <div className="card-body text-center">
                 <h5 className="card-title">{item.title}</h5>
-                <a href="#" className="link text-warning">View All →</a>
+                <a href="/explore" className="link text-warning">View All →</a>
               </div>
             </div>
           </motion.div>
